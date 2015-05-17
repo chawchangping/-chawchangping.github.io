@@ -47,12 +47,9 @@ a {
   }
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-}
+
+  img{ border: 5px solid #ccc; float: left; margin: 15px; -webkit-transition: margin 0.5s ease-out; -moz-transition: margin 0.5s ease-out; -o-transition: margin 0.5s ease-out; } .ex1 img:hover { margin-top: 2px; }
+
 
 table {
   margin-bottom: 1rem;
