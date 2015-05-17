@@ -47,12 +47,16 @@ a {
   }
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+
+  img:hover {
+  background-color: #91bd09;
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-box-shadow: 0 0 18px #91bd09;
 }
+ 
+
 
 table {
   margin-bottom: 1rem;
