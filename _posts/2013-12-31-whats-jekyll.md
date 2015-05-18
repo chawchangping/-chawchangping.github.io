@@ -9,14 +9,6 @@ title: What's Jekyll?
 > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
 
 It's an immensely useful tool. Find out more by [visiting the project on GitHub](https://github.com/jekyll/jekyll).
-<div class="fleft">
-					<select id="cd-dropdown" class="cd-select">
-						<option value="-1" selected>Choose a network to add</option>
-						<option value="1" class="icon-google-plus">Google Plus</option>
-						<option value="2" class="icon-facebook">Facebook</option>
-						<option value="3" class="icon-twitter">Twitter</option>
-						<option value="4" class="icon-github">GitHub</option>
-					</select>
-				</div>
 
+{% include dropdown.html %}
 {% include jquery.html %}
