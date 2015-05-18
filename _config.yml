@@ -5,11 +5,12 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Mgob
-tagline:             This is Chawchang
+title:               Chaw
+tagline:             This is Chaw
+description:         This site is under progress, so please don't hate me.
 url:                 http://getpoole.com
 paginate:            1
-baseurl:             ""
+baseurl:             "\"
 
 # Assets
 #
@@ -28,7 +29,4 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/poole/poole
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+
